@@ -1,0 +1,23 @@
+
+{
+    "name": "ojocoders-session",
+    "description": "Web Session Generator",
+    "logo": "https://files.catbox.moe/ga8fzv.jpegl",
+    "repository": "https://github.com/Ojohacker/ojocoders-session",
+    "keywords": ["Ojo-Coders"],
+    "success_url": "/", 
+    "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
+    "env": {      
+      "PORT": {
+        "description": "Port for web app.4000,5000,3000... any!",
+        "value": "5000",
+        "required": false 
+      },
+      "MESSAGE": {
+        "description": "Just Leave This Blank",
+        "value": "",
+        "required": false 
+      }
+    }   
+
+}
